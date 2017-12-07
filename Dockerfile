@@ -31,4 +31,5 @@ VOLUME "/working"
 # Set up entrypoint
 WORKDIR /root/app
 COPY ["entrypoint.sh", "/root/app/"]
+RUN chmod +x entrypoint.sh
 ENTRYPOINT ./entrypoint.sh
