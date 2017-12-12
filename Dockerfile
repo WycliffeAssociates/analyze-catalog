@@ -8,7 +8,7 @@ RUN apt update && apt install -y \
 
 # Install nodejs
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
- && apt-get install -y nodejs
+ && apt install -y nodejs
 
 # Clean up run image
 RUN apt remove -y \
