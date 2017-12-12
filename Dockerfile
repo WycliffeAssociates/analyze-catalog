@@ -20,16 +20,15 @@ RUN apt remove -y \
 
 # Install app
 WORKDIR /root/app
-COPY ["data", "/root/app/data"]
-COPY ["*.js", "/root/app/"]
-COPY ["*.json", "/root/app/"]
+COPY ["data",   "./data"]
+COPY ["*.js",   "./"]
+COPY ["*.json", "./"]
 RUN npm install
 
 # Setup working volume
 VOLUME "/working"
 
 # Set up entrypoint
-WORKDIR /root/app
-COPY ["entrypoint.sh", "/root/app/"]
+COPY ["entrypoint.sh", "./"]
 RUN chmod +x entrypoint.sh
 ENTRYPOINT ./entrypoint.sh
