@@ -402,7 +402,7 @@
     "contents": [
       {
         "code": "", 
-        "name": "Review Guide", 
+        "name": "Reviewers' Guide",
         "subject": "",
         "links": [], 
         "subcontents": [
@@ -476,6 +476,21 @@
                       "url": "https://github.com/wa-biel/biel-files/raw/master/review-guide/6.%20Narrative%20Passages%20reformat.pdf",
                       "format": "pdf",
                       "zipContent": "", 
+                      "quality": null,
+                      "chapters": []
+                  }
+              ]
+          },
+          {
+              "name": "All PDFs in one ZIP file",
+              "code": "",
+              "sort": 7,
+              "category": "",
+              "links": [
+                  {
+                      "url": "https://github.com/wa-biel/biel-files/raw/master/review-guide/RG%20Final%20PDF.zip",
+                      "format": "pdf",
+                      "zipContent": "",
                       "quality": null,
                       "chapters": []
                   }
