@@ -384,7 +384,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/am_ulb/am_ulb.zip", 
@@ -2124,7 +2124,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/es-419_ulb/es-419_ulb.zip", 
@@ -2522,7 +2522,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/fr_ulb/fr_ulb.zip", 
@@ -2920,7 +2920,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/ha_ulb/ha_ulb.zip", 
@@ -4206,7 +4206,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/pt-br_ulb/pt-br_ulb.zip", 
@@ -4604,7 +4604,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/ru_ulb/ru_ulb.zip", 
@@ -5002,7 +5002,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/sw_ulb/sw_ulb.zip", 
@@ -5400,7 +5400,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/ur-Deva_ulb/ur-Deva_ulb.zip", 
@@ -5798,7 +5798,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/ur_ulb/ur_ulb.zip", 
@@ -6238,7 +6238,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/vi_ulb/vi_ulb.zip", 
@@ -6608,7 +6608,7 @@
           }
         ], 
         "code": "ulb", 
-        "name": "Unlocked Literal Bible", 
+        "name": "Unlocked Literal Bible (ULB)",
         "links": [
           {
             "url": "https://s3.us-east-2.amazonaws.com/biel/translations/zh_ulb/zh_ulb.zip", 
