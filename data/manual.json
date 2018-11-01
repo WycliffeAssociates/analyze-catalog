@@ -1466,6 +1466,21 @@
         ]
       },
       {
+        "code": "ulb-wa",
+        "name": "Unlocked Literal Bible (ULB)",
+        "subject": "Unlocked Literal Bible (ULB)",
+        "checkingLevel": "3",
+        "links": [
+          {
+            "url": "https://door43.org/u/WycliffeAssociates/en_ulb",
+            "zipContent": "",
+            "quality": "",
+            "format": "Read on Web"
+          }
+        ], 
+        "subcontents": []
+      },
+      {
         "code": "tq-wa",
         "name": "Translation Questions",
         "subject": "Translation Questions",
