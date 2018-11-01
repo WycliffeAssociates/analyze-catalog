@@ -1466,6 +1466,51 @@
         ]
       },
       {
+        "code": "tq-wa",
+        "name": "Translation Questions",
+        "subject": "Translation Questions",
+        "checkingLevel": "3",
+        "links": [
+          {
+            "url": "https://door43.org/u/WycliffeAssociates/en_tq",
+            "zipContent": "",
+            "quality": "",
+            "format": "Read on Web"
+          }
+        ], 
+        "subcontents": []
+      },
+      {
+        "code": "tw-wa",
+        "name": "Translation Words",
+        "subject": "Translation Words",
+        "checkingLevel": "3",
+        "links": [
+          {
+            "url": "https://door43.org/u/WycliffeAssociates/en_tw",
+            "zipContent": "",
+            "quality": "",
+            "format": "Read on Web"
+          }
+        ], 
+        "subcontents": []
+      },
+      {
+        "code": "ta-wa",
+        "name": "Translation Academy",
+        "subject": "Translation Academy",
+        "checkingLevel": "3",
+        "links": [
+          {
+            "url": "https://door43.org/u/WycliffeAssociates/en_ta",
+            "zipContent": "",
+            "quality": "",
+            "format": "Read on Web"
+          }
+        ], 
+        "subcontents": []
+      },
+      {
         "code": "rg",
         "name": "Reviewers' Guide",
         "subject": "Reviewers' Guide",
