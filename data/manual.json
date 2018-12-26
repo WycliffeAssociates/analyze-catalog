@@ -3568,9 +3568,39 @@
               ]
           },
           {
-              "name": "Application guides (Oct 2018)",
+              "name": "God the Father (Dec 2018)",
               "code": "",
               "sort": 9,
+              "category": "",
+              "links": [
+                  {
+                      "url": "https://github.com/wa-biel/biel-files/blob/master/review-guide/God%20the%20Father%20Terms.pdf",
+                      "format": "pdf",
+                      "zipContent": "",
+                      "quality": null,
+                      "chapters": []
+                  }
+              ]
+          },
+          {
+              "name": "Son of God (Dec 2018)",
+              "code": "",
+              "sort": 10,
+              "category": "",
+              "links": [
+                  {
+                      "url": "https://github.com/wa-biel/biel-files/blob/master/review-guide/Son%20of%20God%20Terms.pdf",
+                      "format": "pdf",
+                      "zipContent": "",
+                      "quality": null,
+                      "chapters": []
+                  }
+              ]
+          },
+          {
+              "name": "Application guides (Oct 2018)",
+              "code": "",
+              "sort": 11,
               "category": "",
               "links": [
                   {
