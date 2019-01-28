@@ -3422,7 +3422,7 @@
               "name": "All documents in one ZIP file (Jan 2019)",
               "code": "",
               "sort": -1,
-              "category": "",
+              "category": "topics",
               "links": [
                   {
                       "url": "https://github.com/wa-biel/biel-files/raw/master/review-guide/Reviewers'%20Guide%20PDF%20documents/Reviewers'%20Guide%20All%20PDF%20documents.zip",
@@ -3444,7 +3444,7 @@
               "name": "User's Manual (Jan 2019)",
               "code": "",
               "sort": 0,
-              "category": "",
+              "category": "topics",
               "links": [
                   {
                       "url": "https://github.com/wa-biel/biel-files/raw/master/review-guide/Reviewers'%20Guide%20PDF%20documents/Users'%20Manual.pdf",
@@ -3466,7 +3466,7 @@
               "name": "Narrative Passages (Jan 2019)",
               "code": "",
               "sort": 1,
-              "category": "",
+              "category": "topics",
               "links": [
                   {
                       "url": "https://github.com/wa-biel/biel-files/raw/master/review-guide/Reviewers'%20Guide%20PDF%20documents/Narratives%20Guides/Narratives.pdf",
