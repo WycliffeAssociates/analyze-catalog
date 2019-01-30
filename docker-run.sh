@@ -2,5 +2,5 @@ set -e
 docker build . -t analyze-catalog
 docker run \
     --rm \
-    --volume /tmp:/working \
+    --volume /c/Users/${USER}/AppData/Local/Temp:/working \
     analyze-catalog
