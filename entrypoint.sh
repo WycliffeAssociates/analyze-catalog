@@ -5,4 +5,4 @@ npm start &
 sleep 10s
 
 # Get json file from server
-wget --output-document=/working/data.json localhost:8081/massaged/json
+wget --tries=5 --output-document=/working/data.json localhost:8081/massaged/json
