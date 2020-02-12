@@ -1493,7 +1493,7 @@
         "checkingLevel": "3",
         "links": [
           {
-            "url": "https://door43.org/u/WycliffeAssociates/en_ulb",
+            "url": "https://read.bibletranslationtools.org/u/WycliffeAssociates/en_ulb",
             "zipContent": "",
             "quality": "",
             "format": "Read on Web"
@@ -1507,7 +1507,7 @@
             "name": "Genesis",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/01-GEN.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/01-GEN.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1521,7 +1521,7 @@
             "name": "Exodus",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/02-EXO.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/02-EXO.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1535,7 +1535,7 @@
             "name": "Leviticus",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/03-LEV.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/03-LEV.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1549,7 +1549,7 @@
             "name": "Numbers",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/04-NUM.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/04-NUM.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1563,7 +1563,7 @@
             "name": "Deuteronomy",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/05-DEU.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/05-DEU.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1577,7 +1577,7 @@
             "name": "Joshua",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/06-JOS.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/06-JOS.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1591,7 +1591,7 @@
             "name": "Judges",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/07-JDG.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/07-JDG.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1605,7 +1605,7 @@
             "name": "Ruth",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/08-RUT.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/08-RUT.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1619,7 +1619,7 @@
             "name": "1 Samuel",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/09-1SA.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/09-1SA.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1633,7 +1633,7 @@
             "name": "2 Samuel",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/10-2SA.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/10-2SA.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1647,7 +1647,7 @@
             "name": "1 Kings",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/11-1KI.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/11-1KI.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1661,7 +1661,7 @@
             "name": "2 Kings",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/12-2KI.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/12-2KI.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1675,7 +1675,7 @@
             "name": "1 Chronicles",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/13-1CH.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/13-1CH.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1689,7 +1689,7 @@
             "name": "2 Chronicles",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/14-2CH.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/14-2CH.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1703,7 +1703,7 @@
             "name": "Ezra",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/15-EZR.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/15-EZR.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1717,7 +1717,7 @@
             "name": "Nehemiah",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/16-NEH.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/16-NEH.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1731,7 +1731,7 @@
             "name": "Esther",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/17-EST.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/17-EST.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1745,7 +1745,7 @@
             "name": "Job",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/18-JOB.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/18-JOB.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1759,7 +1759,7 @@
             "name": "Psalms",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/19-PSA.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/19-PSA.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1773,7 +1773,7 @@
             "name": "Proverbs",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/20-PRO.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/20-PRO.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1787,7 +1787,7 @@
             "name": "Ecclesiastes",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/21-ECC.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/21-ECC.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1801,7 +1801,7 @@
             "name": "Song of Solomon",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/22-SNG.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/22-SNG.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1815,7 +1815,7 @@
             "name": "Isaiah",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/23-ISA.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/23-ISA.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1829,7 +1829,7 @@
             "name": "Jeremiah",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/24-JER.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/24-JER.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1843,7 +1843,7 @@
             "name": "Lamentations",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/25-LAM.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/25-LAM.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1857,7 +1857,7 @@
             "name": "Ezekiel",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/26-EZK.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/26-EZK.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1871,7 +1871,7 @@
             "name": "Daniel",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/27-DAN.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/27-DAN.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1885,7 +1885,7 @@
             "name": "Hosea",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/28-HOS.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/28-HOS.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1899,7 +1899,7 @@
             "name": "Joel",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/29-JOL.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/29-JOL.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1913,7 +1913,7 @@
             "name": "Amos",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/30-AMO.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/30-AMO.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1927,7 +1927,7 @@
             "name": "Obadiah",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/31-OBA.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/31-OBA.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1941,7 +1941,7 @@
             "name": "Jonah",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/32-JON.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/32-JON.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1955,7 +1955,7 @@
             "name": "Micah",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/33-MIC.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/33-MIC.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1969,7 +1969,7 @@
             "name": "Nahum",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/34-NAM.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/34-NAM.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1983,7 +1983,7 @@
             "name": "Habakkuk",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/35-HAB.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/35-HAB.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -1997,7 +1997,7 @@
             "name": "Zephaniah",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/36-ZEP.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/36-ZEP.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2011,7 +2011,7 @@
             "name": "Haggai",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/37-HAG.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/37-HAG.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2025,7 +2025,7 @@
             "name": "Zechariah",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/38-ZEC.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/38-ZEC.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2039,7 +2039,7 @@
             "name": "Malachi",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/39-MAL.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/39-MAL.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2053,7 +2053,7 @@
             "name": "Matthew",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/41-MAT.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/41-MAT.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2067,7 +2067,7 @@
             "name": "Mark",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/42-MRK.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/42-MRK.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2081,7 +2081,7 @@
             "name": "Luke",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/43-LUK.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/43-LUK.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2095,7 +2095,7 @@
             "name": "John",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/44-JHN.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/44-JHN.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2109,7 +2109,7 @@
             "name": "Acts",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/45-ACT.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/45-ACT.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2123,7 +2123,7 @@
             "name": "Romans",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/46-ROM.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/46-ROM.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2137,7 +2137,7 @@
             "name": "1 Corinthians",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/47-1CO.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/47-1CO.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2151,7 +2151,7 @@
             "name": "2 Corinthians",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/48-2CO.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/48-2CO.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2165,7 +2165,7 @@
             "name": "Galatians",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/49-GAL.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/49-GAL.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2179,7 +2179,7 @@
             "name": "Ephesians",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/50-EPH.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/50-EPH.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2193,7 +2193,7 @@
             "name": "Philippians",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/51-PHP.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/51-PHP.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2207,7 +2207,7 @@
             "name": "Colossians",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/52-COL.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/52-COL.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2221,7 +2221,7 @@
             "name": "1 Thessalonians",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/53-1TH.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/53-1TH.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2235,7 +2235,7 @@
             "name": "2 Thessalonians",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/54-2TH.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/54-2TH.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2249,7 +2249,7 @@
             "name": "1 Timothy",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/55-1TI.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/55-1TI.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2263,7 +2263,7 @@
             "name": "2 Timothy",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/56-2TI.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/56-2TI.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2277,7 +2277,7 @@
             "name": "Titus",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/57-TIT.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/57-TIT.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2291,7 +2291,7 @@
             "name": "Philemon",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/58-PHM.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/58-PHM.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2305,7 +2305,7 @@
             "name": "Hebrews",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/59-HEB.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/59-HEB.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2319,7 +2319,7 @@
             "name": "James",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/60-JAS.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/60-JAS.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2333,7 +2333,7 @@
             "name": "1 Peter",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/61-1PE.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/61-1PE.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2347,7 +2347,7 @@
             "name": "2 Peter",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/62-2PE.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/62-2PE.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2361,7 +2361,7 @@
             "name": "1 John",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/63-1JN.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/63-1JN.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2375,7 +2375,7 @@
             "name": "2 John",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/64-2JN.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/64-2JN.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2389,7 +2389,7 @@
             "name": "3 John",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/65-3JN.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/65-3JN.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2403,7 +2403,7 @@
             "name": "Jude",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/66-JUD.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/66-JUD.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
@@ -2417,7 +2417,7 @@
             "name": "Revelation",
             "links": [
               {
-                "url": "https://git.door43.org/WycliffeAssociates/en_ulb/raw/branch/master/67-REV.usfm",
+                "url": "https://content.bibletranslationtools.org/WycliffeAssociates/en_ulb/raw/branch/master/67-REV.usfm",
                 "zipContent": "",
                 "quality": "",
                 "format": "usfm"
