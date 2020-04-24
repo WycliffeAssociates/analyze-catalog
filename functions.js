@@ -165,14 +165,14 @@ function filterSubcontentLinks(languages) {
           links: s.links && s.links.length > 0 ? s.links.filter((link) => {
               // Special case: MS wants obs-download filtered for now
               const notObsDownload = !(c.code.startsWith("obs") && link.format === 'Download');
-              if (c.code.startsWith("obs")) {
-                  console.log("Filtering l=" + l.code)
-                  console.log("Filtering c=" + c.code)
-                  console.log("Filtering s=" + s.code)
-                  console.log("Filtering link.url=" + link.url)
-                  console.log("Filtering link.format=" + link.format)
-                  console.log("notObsDownload=" + notObsDownload)
-              }
+              // if (c.code.startsWith("obs")) {
+              //     console.log("Filtering l=" + l.code)
+              //     console.log("Filtering c=" + c.code)
+              //     console.log("Filtering s=" + s.code)
+              //     console.log("Filtering link.url=" + link.url)
+              //     console.log("Filtering link.format=" + link.format)
+              //     console.log("notObsDownload=" + notObsDownload)
+              // }
               return notObsDownload
             })
             : [],
