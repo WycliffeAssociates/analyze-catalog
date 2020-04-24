@@ -69,6 +69,28 @@ function filterContents(languages) {
     }));
 }
 
+function filterContentLinks(languages) {
+  return languages.map(l => ({
+    ...l,
+    contents: l.contents.map(c => ({
+      ...c,
+      links: c.links && c.links.length > 0 ? c.links.filter((link) => {
+          // Special case: MS wants obs-download filtered for now
+          const notObsDownload = !(c.code.startsWith("obs") && link.format === 'Download');
+          // if (c.code.startsWith("obs")) {
+          //     console.log("Filtering l=" + l.code)
+          //     console.log("Filtering c=" + c.code)
+          //     console.log("Filtering link.url=" + link.url)
+          //     console.log("Filtering link.format=" + link.format)
+          //     console.log("notObsDownload=" + notObsDownload)
+          // }
+          return notObsDownload
+        })
+        : [],
+    })),
+  }));
+}
+
 function mapSubcontents(languages) {
   return languages.map(l => ({
     ...l,
@@ -125,6 +147,34 @@ function mapSubcontentLinks(languages) {
               // OBS subcontent has, oddly, chapters inside each links.
               chapters: link.chapters || [],
             }))
+            : [],
+        }))
+        : [],
+    })),
+  }));
+}
+
+function filterSubcontentLinks(languages) {
+  return languages.map(l => ({
+    ...l,
+    contents: l.contents.map(c => ({
+      ...c,
+      subcontents: c.subcontents && c.subcontents.length > 0
+        ? c.subcontents.map(s => ({
+          ...s,
+          links: s.links && s.links.length > 0 ? s.links.filter((link) => {
+              // Special case: MS wants obs-download filtered for now
+              const notObsDownload = !(c.code.startsWith("obs") && link.format === 'Download');
+              if (c.code.startsWith("obs")) {
+                  console.log("Filtering l=" + l.code)
+                  console.log("Filtering c=" + c.code)
+                  console.log("Filtering s=" + s.code)
+                  console.log("Filtering link.url=" + link.url)
+                  console.log("Filtering link.format=" + link.format)
+                  console.log("notObsDownload=" + notObsDownload)
+              }
+              return notObsDownload
+            })
             : [],
         }))
         : [],
@@ -290,10 +340,12 @@ module.exports = {
   mapLanguages,
   mapContents,
   mapContentLinks,
+  filterContentLinks,
   filterContents,
   mapSubcontents,
   filterSubcontents,
   mapSubcontentLinks,
+  filterSubcontentLinks,
   addEnglishNames,
   sortLanguageByNameOrEnglishName,
   sortContents,
