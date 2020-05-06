@@ -164,9 +164,9 @@ function filterSubcontentLinks(languages) {
           ...s,
           links: s.links && s.links.length > 0 ? s.links.filter((link) => {
               // Special case: MS wants only ulb, udb, reg to be listed
-              const regDownload = !(c.code.startsWith("reg") && link.format === 'Download');
-              const ulbDownload = !(c.code.startsWith("ulb") && link.format === 'Download');
-              const udbDownload = !(c.code.startsWith("udb") && link.format === 'Download');
+              const regDownload = c.code.startsWith("reg") && link.format === 'Download';
+              const ulbDownload = c.code.startsWith("ulb") && link.format === 'Download';
+              const udbDownload = c.code.startsWith("udb") && link.format === 'Download';
               // Special case: MS wants obs-download filtered for now
               // const notObsDownload = !(c.code.startsWith("obs") && link.format === 'Download');
               // if (c.code.startsWith("obs")) {
