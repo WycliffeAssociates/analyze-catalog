@@ -75,24 +75,13 @@ function filterContentLinks(languages) {
     contents: l.contents.map(c => ({
       ...c,
       links: c.links && c.links.length > 0 ? c.links.filter((link) => {
-          // Special case: If this is a download link,
-          // MS wants only ulb, udb, reg to be listed
+          // Special case: Per MS, only list download links for reg, ulb, udb
           if (link.format === 'Download') {
               const regDownload = c.code.startsWith("reg");
               const ulbDownload = c.code.startsWith("ulb");
               const udbDownload = c.code.startsWith("udb");
               return regDownload || ulbDownload || udbDownload
           }
-          // Special case: MS wants obs-download filtered for now
-          // const notObsDownload = !(c.code.startsWith("obs") && link.format === 'Download');
-          // if (c.code.startsWith("obs")) {
-          //     console.log("Filtering l=" + l.code)
-          //     console.log("Filtering c=" + c.code)
-          //     console.log("Filtering link.url=" + link.url)
-          //     console.log("Filtering link.format=" + link.format)
-          //     console.log("notObsDownload=" + notObsDownload)
-          // }
-          // return notObsDownload
           return true;
         })
         : [],
@@ -172,25 +161,13 @@ function filterSubcontentLinks(languages) {
         ? c.subcontents.map(s => ({
           ...s,
           links: s.links && s.links.length > 0 ? s.links.filter((link) => {
-              // Special case: If this is a download link,
-              // MS wants only ulb, udb, reg to be listed
+              // Special case: Per MS, only list download links for reg, ulb, udb
               if (link.format === 'Download') {
                   const regDownload = c.code.startsWith("reg");
                   const ulbDownload = c.code.startsWith("ulb");
                   const udbDownload = c.code.startsWith("udb");
                   return regDownload || ulbDownload || udbDownload
               }
-              // Special case: MS wants obs-download filtered for now
-              // const notObsDownload = !(c.code.startsWith("obs") && link.format === 'Download');
-              // if (c.code.startsWith("obs")) {
-              //     console.log("Filtering l=" + l.code)
-              //     console.log("Filtering c=" + c.code)
-              //     console.log("Filtering s=" + s.code)
-              //     console.log("Filtering link.url=" + link.url)
-              //     console.log("Filtering link.format=" + link.format)
-              //     console.log("notObsDownload=" + notObsDownload)
-              // }
-              // return notObsDownload
               return true;
             })
             : [],
