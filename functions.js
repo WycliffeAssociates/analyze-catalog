@@ -64,7 +64,12 @@ function filterContents(languages) {
         ...l,
         contents: l.contents.filter((c) => {
            // If the langauge and content codes exist in the filter, filter out
-           return !(l.code in contentFilters && contentFilters[l.code].includes(c.code));
+           return !(
+               // e.g. "en": [ "obs" ]
+               (l.code in contentFilters && contentFilters[l.code].includes(c.code)) ||
+               // e.g. "_all": [ "obs" ]
+               ("_all" in contentFilters && contentFilters["_all"].includes(c.code))
+           );
         })
     }));
 }
