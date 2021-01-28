@@ -74,6 +74,17 @@ function filterContents(languages) {
     }));
 }
 
+function filterEmptyContents(languages) {
+    return languages.map(l => ({
+        ...l,
+        contents: l.contents.filter((c) => {
+            linksExist = c.links && c.links.length > 0;
+            subcontentsExist = c.subcontents && c.subcontents.length > 0;
+            return linksExist || subcontentsExist;
+        })
+    }));
+}
+
 function filterContentLinks(languages) {
   return languages.map(l => ({
     ...l,
@@ -342,6 +353,7 @@ module.exports = {
   mapContentLinks,
   filterContentLinks,
   filterContents,
+  filterEmptyContents,
   mapSubcontents,
   filterSubcontents,
   mapSubcontentLinks,

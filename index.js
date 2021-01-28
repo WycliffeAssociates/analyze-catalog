@@ -11,6 +11,7 @@ const {
   mapContentLinks,
   filterContentLinks,
   filterContents,
+  filterEmptyContents,
   mapSubcontents,
   filterSubcontents,
   mapSubcontentLinks,
@@ -60,6 +61,7 @@ function massage(data) {
   result = sortSubContents(result);
   result = unnestSubcontents(result);
   result = filterContents(result);
+  result = filterEmptyContents(result);
 
   return result;
 }
