@@ -5063,6 +5063,38 @@
     "code": "pt-br", 
     "contents": [
       {
+        "subject": "Bible",
+        "checkingLevel": "1",
+        "subcontents": [
+        ],
+        "code": "dot",
+        "name": "Nova Versão Aberto NVA",
+        "links": [
+          {
+            "url": "https://www.biblianva.com.br",
+            "zipContent": "",
+            "quality": "",
+            "format": "website"
+          }
+        ]
+      },
+      {
+        "subject": "Bible",
+        "checkingLevel": "1",
+        "subcontents": [
+        ],
+        "code": "dot",
+        "name": "Brazilian Portuguese Deaf Bible",
+        "links": [
+          {
+            "url": "https://dotbrasil.org/",
+            "zipContent": "",
+            "quality": "",
+            "format": "website"
+          }
+        ]
+      },
+      {
         "subcontents": [
           {
             "sort": 1, 
