@@ -5064,7 +5064,7 @@
     "contents": [
       {
         "subject": "Bible",
-        "checkingLevel": "1",
+        "checkingLevel": "3",
         "subcontents": [
         ],
         "code": "nva",
@@ -5080,17 +5080,17 @@
       },
       {
         "subject": "Bible",
-        "checkingLevel": "1",
+        "checkingLevel": "3",
         "subcontents": [
         ],
         "code": "dot",
-        "name": "Brazilian Portuguese Deaf Bible",
+        "name": "https://www.youtube.com/bibliadot",
         "links": [
           {
             "url": "https://dotbrasil.org/",
             "zipContent": "",
             "quality": "",
-            "format": "website"
+            "format": "YouTube"
           }
         ]
       },
