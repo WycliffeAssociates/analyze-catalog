@@ -205,8 +205,13 @@ function addEnglishNames(langNameData, languages) {
 
 function sortLanguageByNameOrEnglishName(languages) {
   return languages.sort((first, second) => {
-    const nameOfFirst = first.englishName || first.name;
-    const nameOfSecond = second.englishName || second.name;
+    let nameOfFirst = first.englishName || first.name;
+    let nameOfSecond = second.englishName || second.name;
+
+    // "Normalize" strings for sorting by replacing accented characters with plain ones
+    // Adapted from: https://stackoverflow.com/a/37511463
+    nameOfFirst = nameOfFirst.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    nameOfSecond = nameOfSecond.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
     if (nameOfFirst === nameOfSecond) {
       return 0;
