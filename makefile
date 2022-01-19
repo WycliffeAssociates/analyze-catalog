@@ -6,6 +6,7 @@ build:
 	docker build . -t analyze-catalog
 
 run:
+	test -n "$(AC_WORKING_DIR)" # $$AC_WORKING_DIR
 	docker run \
 		--rm \
 		--volume ${AC_WORKING_DIR}:/working \
