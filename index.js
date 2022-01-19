@@ -45,6 +45,23 @@ let massagedData;
  *
  */
 
+
+function debugPrintArb(languages) {
+    console.log("debugPrintArb()");
+    for (const l of languages) {
+        if (l.code != "arb") { continue; }
+        console.log(l);
+        for (const c of l.contents) {
+            if (c.code != "tn") { continue; }
+            console.log(c);
+            for (const sc of c.subcontents) {
+                if (sc.code != "gen") { continue; }
+                console.log(sc);
+            }
+        }
+    }
+}
+
 function massage(data) {
   let result = mapLanguages(data.languages);
   result = mapContents(result);
@@ -54,7 +71,7 @@ function massage(data) {
   result = mapSubcontentLinks(result);
   result = addAdditionalData(result);
   result = filterContentLinks(result);
-  result = filterSubcontentLinks(result);
+  // result = filterSubcontentLinks(result);
   result = addEnglishNames(langData, result);
   result = sortLanguageByNameOrEnglishName(result);
   result = sortContents(contentOrderData, result);
@@ -62,6 +79,8 @@ function massage(data) {
   result = unnestSubcontents(result);
   result = filterContents(result);
   result = filterEmptyContents(result);
+
+  // debugPrintArb(result);
 
   return result;
 }
