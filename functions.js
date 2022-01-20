@@ -74,6 +74,21 @@ function filterContents(languages) {
     }));
 }
 
+function filterEmptySubcontents(languages) {
+  return languages.map(l => ({
+    ...l,
+    contents: l.contents.map(c => ({
+      ...c,
+      subcontents: c.subcontents && c.subcontents.length > 0
+        ? c.subcontents.filter((s) => {
+          const hasLinks = s.links && s.links.length > 0;
+          return hasLinks;
+        })
+        : [],
+    })),
+  }));
+}
+
 function filterEmptyContents(languages) {
     return languages.map(l => ({
         ...l,
@@ -358,6 +373,7 @@ module.exports = {
   mapContentLinks,
   filterContentLinks,
   filterContents,
+  filterEmptySubcontents,
   filterEmptyContents,
   mapSubcontents,
   filterSubcontents,

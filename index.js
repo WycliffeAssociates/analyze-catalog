@@ -11,6 +11,7 @@ const {
   mapContentLinks,
   filterContentLinks,
   filterContents,
+  filterEmptySubcontents,
   filterEmptyContents,
   mapSubcontents,
   filterSubcontents,
@@ -71,16 +72,17 @@ function massage(data) {
   result = mapSubcontentLinks(result);
   result = addAdditionalData(result);
   result = filterContentLinks(result);
-  // result = filterSubcontentLinks(result);
+  result = filterSubcontentLinks(result);
   result = addEnglishNames(langData, result);
   result = sortLanguageByNameOrEnglishName(result);
   result = sortContents(contentOrderData, result);
   result = sortSubContents(result);
   result = unnestSubcontents(result);
   result = filterContents(result);
+  result = filterEmptySubcontents(result);
   result = filterEmptyContents(result);
 
-  // debugPrintArb(result);
+  debugPrintArb(result);
 
   return result;
 }
