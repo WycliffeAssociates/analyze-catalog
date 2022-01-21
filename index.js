@@ -46,7 +46,6 @@ let massagedData;
  *
  */
 
-
 function massage(data) {
   let result = mapLanguages(data.languages);
   result = mapContents(result);
