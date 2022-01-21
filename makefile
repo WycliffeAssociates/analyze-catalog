@@ -1,4 +1,4 @@
-.PHONY: build run shell
+.PHONY: build run shell update-gogs-json
 
 SHELL := /bin/bash
 
