@@ -11,6 +11,7 @@ const {
   mapContentLinks,
   filterContentLinks,
   filterContents,
+  filterEmptySubcontents,
   filterEmptyContents,
   mapSubcontents,
   filterSubcontents,
@@ -61,6 +62,7 @@ function massage(data) {
   result = sortSubContents(result);
   result = unnestSubcontents(result);
   result = filterContents(result);
+  result = filterEmptySubcontents(result);
   result = filterEmptyContents(result);
 
   return result;
@@ -98,7 +100,6 @@ function addAdditionalData(data) {
     const existingLangIndex = combinedData.findIndex(l => l.code === lang.code);
 
     if (existingLangIndex === -1) {
-      console.log('Merge the whole language', lang.code);
       combinedData.push(lang);
       continue;
     }
@@ -115,7 +116,6 @@ function addAdditionalData(data) {
         existingLang.contents.findIndex(c => c.code === content.code);
 
       if (existingContentIndex === -1) {
-        console.log('Merge only the contents for', lang.code, content.code);
         combinedData[existingLangIndex].contents.push(content);
         continue;
       }
@@ -129,7 +129,6 @@ function addAdditionalData(data) {
             existingContent.links.findIndex(x => x.format === link.format);
 
           if (existingLinkIndex === -1) {
-            console.log('Merge only the content link', lang.code, content.code, link.format);
             combinedData[existingLangIndex]
               .contents[existingContentIndex]
               .links.push(link);
@@ -147,7 +146,6 @@ function addAdditionalData(data) {
           existingContent.subcontents.findIndex(s => s.code === subcontent.code);
 
         if (existingSubcontentIndex === -1) {
-          console.log('Merge only the subcontents for', lang.code, content.code, subcontent.code);
           combinedData[existingLangIndex]
             .contents[existingContentIndex]
             .subcontents.push(subcontent);
@@ -166,7 +164,6 @@ function addAdditionalData(data) {
             .findIndex(x => x.format === link.format);
 
           if (existingLinkIndex === -1) {
-            console.log('Merge only the links for', lang.code, content.code, subcontent.code);
             combinedData[existingLangIndex]
               .contents[existingContentIndex]
               .subcontents[existingSubcontentIndex]
@@ -176,14 +173,6 @@ function addAdditionalData(data) {
 
           // At this point, the additional content has the same language, content, subcontent, link
           // format, and link URL. There's no need to add it to the list.
-          console.log(
-            'No need to merge',
-            lang.code,
-            content.code,
-            subcontent.code,
-            link.format,
-            link.url,
-          );
         }
       }
     }
