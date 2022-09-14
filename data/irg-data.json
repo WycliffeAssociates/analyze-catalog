@@ -41,5 +41,48 @@
         ]
       }
     ]
+  },
+  {
+    "code": "fr",
+    "contents": [
+      {
+        "subject": "Interleaved Resources Documents",
+        "checkingLevel": "3",
+        "subcontents": [
+          {
+            "sort": 2, 
+            "category": "bible-ot", 
+            "code": "exo", 
+            "name": "Exodus", 
+            "links": [
+              {
+                "url": "https://s3.us-east-2.amazonaws.com/biel/translations/am_ulb/02-EXO.usfm", 
+                "zipContent": "", 
+                "quality": "", 
+                "format": "pdf"
+              }
+            ]
+          }, 
+          {
+            "sort": 41, 
+            "category": "bible-nt", 
+            "code": "mat", 
+            "name": "Matthew", 
+            "links": [
+              {
+                "url": "https://s3.us-east-2.amazonaws.com/biel/translations/am_ulb/41-MAT.usfm", 
+                "zipContent": "", 
+                "quality": "", 
+                "format": "pdf"
+              }
+            ]
+          }
+        ],
+        "code": "irg",
+        "name": "Interleaved Resources Documents",
+        "links": [
+        ]
+      }
+    ]
   }
 ]

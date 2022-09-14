@@ -29,6 +29,7 @@ const {
 } = require('./helpers');
 
 const manualData = require('./data/manual.json');
+const irgData = require('./data/irg-data.json');
 const bielFilesData = require('./data/biel-files.json');
 const gogsData = require('./data/gogs.json');
 const handmadeData = require('./data/handmade.json');
@@ -78,6 +79,7 @@ function massage(data) {
 // TODO: Find a better way to merge additional data
 function addAdditionalData(data) {
   const dataToAdd = manualData
+    .concat(irgData)
     .concat(bielFilesData)
     .concat(gogsData)
     .concat(handmadeData)
