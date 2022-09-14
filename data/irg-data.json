@@ -3,14 +3,17 @@
     "code": "en",
     "contents": [
       {
-        "subject": "Interleaved Resources Documents",
+        "code": "irg",
+        "name": "Interleaved Resources Documents",
+        "subject": "translation notes",
         "checkingLevel": "3",
+        "links": [],
         "subcontents": [
           {
+            "name": "Exodus",
+            "code": "exo",
             "sort": 2,
             "category": "bible-ot",
-            "code": "exo",
-            "name": "Exodus",
             "links": [
               {
                 "url": "https://irgdev.walink.org/pdfs/en-ulb-wa-exo_en-tw-wa-exo_en-tq-wa-exo_en-tn-wa-exo_blo_1c",
@@ -930,10 +933,7 @@
               }
             ]
           }
-        ],
-        "code": "irg",
-        "name": "Interleaved Resources Documents",
-        "links": []
+        ]
       }
     ]
   },
@@ -941,7 +941,7 @@
     "code": "fr",
     "contents": [
       {
-        "subject": "Interleaved Resources Documents",
+        "subject": "translation notes",
         "checkingLevel": "3",
         "subcontents": [
           {
@@ -1025,7 +1025,7 @@
     "code": "es-419",
     "contents": [
       {
-        "subject": "Interleaved Resources Documents",
+        "subject": "translation notes",
         "checkingLevel": "3",
         "subcontents": [],
         "code": "irg",
@@ -1038,7 +1038,7 @@
     "code": "pt-br",
     "contents": [
       {
-        "subject": "Interleaved Resources Documents",
+        "subject": "translation notes",
         "checkingLevel": "3",
         "subcontents": [],
         "code": "irg",
