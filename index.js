@@ -28,8 +28,8 @@ const {
   flattenOnce,
 } = require('./helpers');
 
+let irgData = require('./data/irg-data.json');
 const manualData = require('./data/manual.json');
-const irgData = require('./data/irg-data.json');
 const bielFilesData = require('./data/biel-files.json');
 const gogsData = require('./data/gogs.json');
 const handmadeData = require('./data/handmade.json');
@@ -220,9 +220,15 @@ function main() {
     langData = JSON.parse(body1);
     request('https://api.bibletranslationtools.org/v3/catalog.json', (err2, resp2, body2) => {
       catalogData = JSON.parse(body2);
-      massagedData = massage(catalogData);
-      app.listen(8081, () => {
-        console.log('Server running at http://localhost:8081/');
+      request('https://irgdownloaddev.walink.org/pdfs.json', (err3, resp3, body3) => {
+          console.log(err3);
+          console.log(resp3);
+          console.log(body3);
+          irgData = JSON.parse(body3);
+          massagedData = massage(catalogData);
+          app.listen(8081, () => {
+            console.log('Server running at http://localhost:8081/');
+          });
       });
     });
   });
