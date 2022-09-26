@@ -221,9 +221,6 @@ function main() {
     request('https://api.bibletranslationtools.org/v3/catalog.json', (err2, resp2, body2) => {
       catalogData = JSON.parse(body2);
       request('https://irgdownloaddev.walink.org/pdfs.json', (err3, resp3, body3) => {
-          console.log(err3);
-          console.log(resp3);
-          console.log(body3);
           irgData = JSON.parse(body3);
           massagedData = massage(catalogData);
           app.listen(8081, () => {
