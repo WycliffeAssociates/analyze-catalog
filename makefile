@@ -2,6 +2,9 @@
 
 SHELL := /bin/bash
 
+edit:
+	${EDITOR} readme.MD Dockerfile index.js *.js
+
 build:
 	docker build . -t analyze-catalog
 

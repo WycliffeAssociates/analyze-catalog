@@ -1,28 +1,12 @@
-FROM debian:stretch-slim
+FROM node:18
 
 # Install packages
-RUN apt update && apt install -y \
-    curl \
-    gnupg \
-    wget
-
-# Install nodejs
-RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
- && apt install -y nodejs
-
-# Clean up run image
-RUN apt remove -y \
-    curl \
- && apt-get purge -y --auto-remove \
-                  -o APT::AutoRemove::RecommendsImportant=false \
- && rm -rf /var/lib/apt/lists/* \
-           /tmp/*
+WORKDIR /root/app
+COPY ["*.json", "./"]
+RUN npm ci
 
 # Install app
-WORKDIR /root/app
 COPY ["*.js",   "./"]
-COPY ["*.json", "./"]
-RUN npm install
 
 # Copy data
 COPY ["data",   "./data"]
