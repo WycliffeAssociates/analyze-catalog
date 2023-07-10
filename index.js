@@ -216,10 +216,12 @@ main();
 function main() {
 
   // Get langnames.json URL from environment
+  // TODO: Replace temp URL with real PROD location once it's known
   const langnamesUrl = process.env.LANGNAMES_URL || 'https://langnames-temp.walink.org/langnames.json'
 
   request(langnamesUrl, (err1, resp1, body1) => {
     langData = JSON.parse(body1);
+    console.log(langData);
     request('https://api.bibletranslationtools.org/v3/catalog.json', (err2, resp2, body2) => {
       catalogData = JSON.parse(body2);
       massagedData = massage(catalogData);
