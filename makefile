@@ -2,6 +2,9 @@
 
 SHELL := /bin/bash
 
+edit:
+	${EDITOR} readme.MD makefile Dockerfile index.js *.js
+
 build:
 	docker build . -t analyze-catalog
 
@@ -10,6 +13,7 @@ run:
 	docker run \
 		--rm \
 		--volume ${AC_WORKING_DIR}:/working \
+		--env LANGNAMES_URL=${LANGNAMES_URL} \
 		analyze-catalog
 
 shell:

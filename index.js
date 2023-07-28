@@ -214,7 +214,12 @@ app.get('/massaged/json', (req, res) => {
 main();
 
 function main() {
-  request('http://td.unfoldingword.org/exports/langnames.json', (err1, resp1, body1) => {
+
+  // Get langnames.json URL from environment if present
+  const langnamesUrl = process.env.LANGNAMES_URL || 'https://langnames.bibleineverylanguage.org/langnames.json'
+  console.log("Langnames URL: " + langnamesUrl);
+
+  request(langnamesUrl, (err1, resp1, body1) => {
     langData = JSON.parse(body1);
     request('https://api.bibletranslationtools.org/v3/catalog.json', (err2, resp2, body2) => {
       catalogData = JSON.parse(body2);
