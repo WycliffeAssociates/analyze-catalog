@@ -1,5 +1,5 @@
 {
     "_all": [ "obs", "obs-tq", "obs-tn", "obs-tw" ],
-    "en": [ "ulb", "udb", "ta", "ust", "ult", "obs-tq", "t4t" ],
+    "en": [ "ulb", "udb", "ta", "ust", "ult", "obs-tq", "t4t", "tq", "tw" ],
     "id": [ "ulb", "ayt" ]
 }
