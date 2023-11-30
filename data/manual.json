@@ -6205,5 +6205,26 @@
         "subject": "Bible"
       }
     ]
+  },
+  {
+    "code": "ase-x-beninsl",
+    "contents": [
+      {
+        "subject": "Bible",
+        "checkingLevel": "2",
+        "subcontents": [
+        ],
+        "code": "dot",
+        "name": "Benin Sign Language",
+        "links": [
+          {
+            "url": "https://benin.slbible.com/",
+            "zipContent": "",
+            "quality": "",
+            "format": "Watch"
+          }
+        ]
+      }
+    ]
   }
 ]
