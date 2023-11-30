@@ -6226,5 +6226,131 @@
         ]
       }
     ]
+  },
+  {
+    "code": "ase-x-camanclosl",
+    "contents": [
+      {
+        "subject": "Bible",
+        "checkingLevel": "2",
+        "subcontents": [
+        ],
+        "code": "dot",
+        "name": "Cameroonian Anglophone Sign Language",
+        "links": [
+          {
+            "url": "https://cameroon.slbible.com/",
+            "zipContent": "",
+            "quality": "",
+            "format": "Watch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ase-x-cotedivosl",
+    "contents": [
+      {
+        "subject": "Bible",
+        "checkingLevel": "2",
+        "subcontents": [
+        ],
+        "code": "dot",
+        "name": "Côte d'Ivoire Sign Language",
+        "links": [
+          {
+            "url": "https://cotedivoire.slbible.com/",
+            "zipContent": "",
+            "quality": "",
+            "format": "Watch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "gse",
+    "contents": [
+      {
+        "subject": "Bible",
+        "checkingLevel": "2",
+        "subcontents": [
+        ],
+        "code": "dot",
+        "name": "Gnanaian Sign Language",
+        "links": [
+          {
+            "url": "https://ghana.slbible.com/",
+            "zipContent": "",
+            "quality": "",
+            "format": "Watch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "lws",
+    "contents": [
+      {
+        "subject": "Bible",
+        "checkingLevel": "2",
+        "subcontents": [
+        ],
+        "code": "dot",
+        "name": "Malawian Sign Language",
+        "links": [
+          {
+            "url": "https://malawi.slbible.com/",
+            "zipContent": "",
+            "quality": "",
+            "format": "Watch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "tza",
+    "contents": [
+      {
+        "subject": "Bible",
+        "checkingLevel": "2",
+        "subcontents": [
+        ],
+        "code": "dot",
+        "name": "Tanzanian Sign Language",
+        "links": [
+          {
+            "url": "https://tanzania.slbible.com/",
+            "zipContent": "",
+            "quality": "",
+            "format": "Watch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "ase-x-togolesesl",
+    "contents": [
+      {
+        "subject": "Bible",
+        "checkingLevel": "2",
+        "subcontents": [
+        ],
+        "code": "dot",
+        "name": "Togolese Sign Language",
+        "links": [
+          {
+            "url": "https://togo.slbible.com/",
+            "zipContent": "",
+            "quality": "",
+            "format": "Watch"
+          }
+        ]
+      }
+    ]
   }
 ]
