@@ -6286,20 +6286,6 @@
           {
             "sort": 46,
             "category": "bible-nt",
-            "code": "jhn",
-            "name": "Jean",
-            "links": [
-              {
-                "url": "https://benin.slbible.com/JHN.001",
-                "zipContent": "",
-                "quality": "",
-                "format": "Watch"
-              }
-            ]
-          },
-          {
-            "sort": 47,
-            "category": "bible-nt",
             "code": "rom",
             "name": "Romains",
             "links": [
@@ -6312,7 +6298,7 @@
             ]
           },
           {
-            "sort": 48,
+            "sort": 47,
             "category": "bible-nt",
             "code": "1co",
             "name": "1 Corinthiens",
@@ -6326,7 +6312,7 @@
             ]
           },
           {
-            "sort": 49,
+            "sort": 48,
             "category": "bible-nt",
             "code": "2co",
             "name": "2 Corinthiens",
@@ -6340,7 +6326,7 @@
             ]
           },
           {
-            "sort": 50,
+            "sort": 49,
             "category": "bible-nt",
             "code": "gal",
             "name": "Galates",
@@ -6354,7 +6340,7 @@
             ]
           },
           {
-            "sort": 51,
+            "sort": 50,
             "category": "bible-nt",
             "code": "eph",
             "name": "Ephesiens",
@@ -6368,7 +6354,7 @@
             ]
           },
           {
-            "sort": 52,
+            "sort": 51,
             "category": "bible-nt",
             "code": "php",
             "name": "Philippiens",
@@ -6382,7 +6368,7 @@
             ]
           },
           {
-            "sort": 53,
+            "sort": 52,
             "category": "bible-nt",
             "code": "col",
             "name": "Colossiens",
@@ -6396,7 +6382,7 @@
             ]
           },
           {
-            "sort": 54,
+            "sort": 53,
             "category": "bible-nt",
             "code": "1th",
             "name": "1 Thessaloniciens",
@@ -6410,7 +6396,7 @@
             ]
           },
           {
-            "sort": 55,
+            "sort": 54,
             "category": "bible-nt",
             "code": "2th",
             "name": "2 Thessaloniciens",
@@ -6424,7 +6410,7 @@
             ]
           },
           {
-            "sort": 56,
+            "sort": 55,
             "category": "bible-nt",
             "code": "1ti",
             "name": "1 Timothée",
@@ -6438,7 +6424,7 @@
             ]
           },
           {
-            "sort": 57,
+            "sort": 56,
             "category": "bible-nt",
             "code": "2ti",
             "name": "2 Timothée",
@@ -6452,7 +6438,7 @@
             ]
           },
           {
-            "sort": 58,
+            "sort": 57,
             "category": "bible-nt",
             "code": "tit",
             "name": "Tite",
@@ -6466,7 +6452,7 @@
             ]
           },
           {
-            "sort": 59,
+            "sort": 58,
             "category": "bible-nt",
             "code": "phm",
             "name": "Philemon",
@@ -6480,7 +6466,7 @@
             ]
           },
           {
-            "sort": 60,
+            "sort": 59,
             "category": "bible-nt",
             "code": "heb",
             "name": "Hebreux",
@@ -6494,7 +6480,7 @@
             ]
           },
           {
-            "sort": 61,
+            "sort": 60,
             "category": "bible-nt",
             "code": "jas",
             "name": "Jacques",
@@ -6508,7 +6494,7 @@
             ]
           },
           {
-            "sort": 62,
+            "sort": 61,
             "category": "bible-nt",
             "code": "1pe",
             "name": "1 Pierre",
@@ -6522,7 +6508,7 @@
             ]
           },
           {
-            "sort": 63,
+            "sort": 62,
             "category": "bible-nt",
             "code": "2pe",
             "name": "2 Pierre",
@@ -6536,7 +6522,7 @@
             ]
           },
           {
-            "sort": 64,
+            "sort": 63,
             "category": "bible-nt",
             "code": "1jn",
             "name": "1 Jean",
@@ -6550,7 +6536,7 @@
             ]
           },
           {
-            "sort": 65,
+            "sort": 64,
             "category": "bible-nt",
             "code": "2jn",
             "name": "2 Jean",
@@ -6564,7 +6550,7 @@
             ]
           },
           {
-            "sort": 66,
+            "sort": 65,
             "category": "bible-nt",
             "code": "3jn",
             "name": "3 Jean",
@@ -6578,7 +6564,7 @@
             ]
           },
           {
-            "sort": 67,
+            "sort": 66,
             "category": "bible-nt",
             "code": "jud",
             "name": "Jude",
@@ -6592,7 +6578,7 @@
             ]
           },
           {
-            "sort": 68,
+            "sort": 67,
             "category": "bible-nt",
             "code": "rev",
             "name": "Apocalypse",
