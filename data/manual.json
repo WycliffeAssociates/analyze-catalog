@@ -6213,6 +6213,20 @@
         "subject": "Sign Languages",
         "checkingLevel": "2",
         "subcontents": [
+          {
+            "sort": 41, 
+            "category": "bible-nt", 
+            "code": "mat", 
+            "name": "Matthew", 
+            "links": [
+              {
+                "url": "https://benin.slbible.com/MAT.001", 
+                "zipContent": "", 
+                "quality": "", 
+                "format": "Watch"
+              }
+            ]
+          }
         ],
         "code": "dot",
         "name": "Benin Sign Language",
