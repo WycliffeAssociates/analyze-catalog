@@ -6217,10 +6217,52 @@
             "sort": 41, 
             "category": "bible-nt", 
             "code": "mat", 
-            "name": "Matthew", 
+            "name": "Matthieu", 
             "links": [
               {
                 "url": "https://benin.slbible.com/MAT.001", 
+                "zipContent": "", 
+                "quality": "", 
+                "format": "Watch"
+              }
+            ]
+          },
+          {
+            "sort": 41, 
+            "category": "bible-nt", 
+            "code": "mrk", 
+            "name": "Marc", 
+            "links": [
+              {
+                "url": "https://benin.slbible.com/MRK.001", 
+                "zipContent": "", 
+                "quality": "", 
+                "format": "Watch"
+              }
+            ]
+          },
+          {
+            "sort": 41, 
+            "category": "bible-nt", 
+            "code": "luk", 
+            "name": "Luc", 
+            "links": [
+              {
+                "url": "https://benin.slbible.com/LUK.001", 
+                "zipContent": "", 
+                "quality": "", 
+                "format": "Watch"
+              }
+            ]
+          },
+          {
+            "sort": 41, 
+            "category": "bible-nt", 
+            "code": "jhn", 
+            "name": "Jean", 
+            "links": [
+              {
+                "url": "https://benin.slbible.com/JHN.001", 
                 "zipContent": "", 
                 "quality": "", 
                 "format": "Watch"
