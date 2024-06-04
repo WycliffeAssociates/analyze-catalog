@@ -434,7 +434,7 @@
             "format": "Read on Web"
           },
           {
-            "url": "/download-scripture?repo_url=https:%2F%2Fcontent.bibletranslationtools.org%2FWycliffeAssociates%2Fen_ulb",
+            "url": "https://doc.bibleineverylanguage.org/transfer/repo_url=https:%2F%2Fcontent.bibletranslationtools.org%2FWycliffeAssociates%2Fen_ulb",
             "zipContent": "",
             "quality": "",
             "format": "Download"
@@ -1380,7 +1380,7 @@
             "format": "Read on Web"
           },
           {
-            "url": "/download-scripture?repo_url=https:%2F%2Fcontent.bibletranslationtools.org%2FWycliffeAssociates%2Fen_udb",
+            "url": "https://doc.bibleineverylanguage.org/transfer/repo_url=https:%2F%2Fcontent.bibletranslationtools.org%2FWycliffeAssociates%2Fen_udb",
             "zipContent": "",
             "quality": "",
             "format": "Download"
