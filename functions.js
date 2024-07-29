@@ -381,7 +381,7 @@ module.exports = {
   filterSubcontents,
   mapSubcontentLinks,
   filterSubcontentLinks,
-  updateFromLangNames: updateFromLangNames,
+  updateFromLangNames,
   sortLanguageByNameOrEnglishName,
   sortContents,
   sortSubContents,
