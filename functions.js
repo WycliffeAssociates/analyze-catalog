@@ -208,12 +208,14 @@ function filterSubcontentLinks(languages) {
   }));
 }
 
-function addEnglishNames(langNameData, languages) {
+function updateFromLangNames(langNameData, languages) {
   return languages.map((l) => {
     const data = langNameData.find(lang => lang.lc === l.code);
     return {
       ...l,
+      name: (data && data.ln) || '',
       englishName: (data && data.ang) || '',
+      direction: (data && data.ld) || ''
     };
   });
 }
@@ -379,7 +381,7 @@ module.exports = {
   filterSubcontents,
   mapSubcontentLinks,
   filterSubcontentLinks,
-  addEnglishNames,
+  updateFromLangNames,
   sortLanguageByNameOrEnglishName,
   sortContents,
   sortSubContents,
